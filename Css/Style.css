@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3436;  
+    height: 100vh;
+}
+
+.Screen {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4.5rem;
+    background-color: whitesmoke;
+}
+.calculator{
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    width: 20vw;
+    height: 72vh;   
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.1rem 0.1rem;
+
+}
+
+button{
+   padding: 0.75rem 20px;
+   border-radius: 0.45rem;
+}
