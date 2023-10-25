@@ -10,8 +10,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2d3436;  
+    background: #eae6e6;
     height: 100vh;
+    padding-bottom: 20rem;
+
 }
 
 .Screen {
@@ -19,16 +21,26 @@ body {
     flex-direction: row-reverse;
     padding: 4.5rem;
     background-color: whitesmoke;
+    text-shadow: #333;
+
 }
-.calculator{
-    height: 10rem;
-    width: 10rem;
-    background-color: red;
-    width: 20vw;
-    height: 72vh;   
+.windows{
+    display: flex;
+    flex-direction: row-reverse;
+    
 }
 
+.calculator{
+    height: 10rem;
+    width: 20vw;
+    background-color: #d5d9dc;
+}  
+
+
+
+
 .keys {
+    background-color: #d5d9dc;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
